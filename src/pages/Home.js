@@ -1,8 +1,10 @@
+import { Container, Typography } from "@material-ui/core";
+
 export const Home = () => {
   return (
-    <div>
-      <h1>Home</h1>
-    </div>
+    <Container>
+      <Typography>Home</Typography>
+    </Container>
   );
 };
 

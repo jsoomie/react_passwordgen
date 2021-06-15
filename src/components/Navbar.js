@@ -1,8 +1,10 @@
+import { Container, Typography } from "@material-ui/core";
+
 export const Navbar = () => {
   return (
-    <div>
-      <h1>Navbar</h1>
-    </div>
+    <Container>
+      <Typography>Navbar</Typography>
+    </Container>
   );
 };
 
